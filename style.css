@@ -1,0 +1,17 @@
+.container{
+    background-color: #212121;
+
+    
+}
+
+.container-hoving {
+    cursor: pointer;
+    z-index: 0;
+    transform-origin: center;
+    transition-property: transform;
+    transition-duration: 200ms;
+}
+
+.container-hoving:hover {
+    transform: scale(1.1, 1.1);
+}
